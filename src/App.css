@@ -1,0 +1,90 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.app {
+  background-color: #eef0f4;
+  padding: 40px;
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.task-board {
+  background-color: white;
+  width: 250px;
+}
+
+.task-board-0 h2 {
+  background-color: #8d6e95;
+}
+
+.task-board-1 h2 {
+  background-color: #38a59b;
+}
+
+.task-board-2 h2 {
+  background-color: #334658;
+}
+
+.task-board-3 h2 {
+  background-color: #e9741d;
+}
+
+.task-board h2 {
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+}
+
+.task-board .slider button {
+  align-self: center;
+  cursor: pointer;
+  border: none;
+  background-color: #fff;
+  color: #0a91cd;
+}
+
+.task-board button {
+  margin: 10px;
+}
+
+.task-board button:disabled {
+  color: grey;
+  cursor: not-allowed;
+}
+
+.button-box {
+  display: flex;
+  justify-content: center;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.task i {
+  cursor: pointer;
+}
+
+.task p {
+  margin: 0px;
+}
+
+.slider {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto 0;
+}
+
+.slider button {
+  margin: 0px;
+}
